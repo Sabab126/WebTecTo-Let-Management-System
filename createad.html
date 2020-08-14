@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rent Post</title>
+	<link rel="stylesheet" type="text/css" href="rentpost.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cheap flats rooms accommodation inside Dhaka">
+	 <meta name="keywords" content="Flat, Rent, Dhaka">
+  	<meta name="author" content="Sirajum Munir Fahim">
+	<title>ToLet - Find Your Home</title>
+	<script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href = "css/jquery-ui.css" rel = "stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/formstyle.css" media="all"/>
+</head>
+<body>
+	<header>
+       <div class="container">
+         <div id="branding">
+          <h1><span class="highlight">ToLet</span> - Find Your Home</h1>
+         </div>
+        <nav>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li  class="current" class="button1"><a href="createad.html"> List Your Property</a></li>
+          </ul>
+         </nav>
+       </div>
+    </header> 
+
+        <div class="container">
+    	
+		<h2 align="center"></h2>
+		<div  class="form">
+    		<form id="contactform"> 
+    			<p class="contact"><label for="title">Title</label></p> 
+    			<input id="title" name="Title" placeholder="Property Title" required="" tabindex="1" type="text"> 
+    			<p class="contact"><label for="Property type">Property Type</label></p>
+    			<select class="select-style gender" name="Property Type">
+           		<option value="select"> Select Type</option>
+            	<option value="f">Flat</option>
+            	<option value="r">Room</option>
+            	<option value="h">House</option>
+            	<option value="s">Seat</option>
+            	</select><br><br>
+            	<p class="contact"><label for="phone">Area</label></p> 
+            	<input id="area" name="area" placeholder="area sqft" required="" type="text"> <br>
+            	<p class="contact"><label for="phone">Rent</label></p> 
+            	<input id="rent" name="rent" placeholder="rent per month" required="" type="text"> <br>
+            	<div class="input-group mb-3">
+  				 <div class="input-group-prepend">
+  				 	<p class="contact"><label for="image">Image</label></p> 
+    			 <span class="input-group-text"></span>
+  				 </div>
+  				 <div class="custom-file">
+    			 <input type="file" class="custom-file-input" id="inputGroupFile01">
+				</div>
+  				<p class="contact"><label for="image">Image 2 (optional)</label></p> 
+    			<span class="input-group-text"></span>
+    			<input type="file" class="custom-file-input" id="inputGroupFile02">
+    			<p class="contact"><label for="phone">Bedroom(s)</label></p> 
+            	<input id="rent" name="rent" placeholder="Number of Bedrooms/bed" required="" type="text"> <br>
+            	<p class="contact"><label for="phone">BathRoom(s)</label></p> 
+            	<input id="rent" name="rent" placeholder="Number of bathroom" required="" type="text"> <br>
+            	<p class="contact"><label for="Property type">Location</label></p>
+    			<select class="select-style gender" name="Location">
+           		<option value="select"> Select Location</option>
+            	<option value="u">Uttara</option>
+            	<option value="b">Bashundhara</option>
+            	<option value="k">Khilkhet</option>
+            	<option value="m">Mirpur</option>
+            	</select><br><br>
+            	<p class="contact"><label for="phone">Full Location</label></p> 
+            	<input id="rent" name="rent" placeholder="Detailed location" required="" type="text"> <br>
+            	<p class="contact"><label for="phone">Description</label></p> 
+            	<input id="rent" name="rent" placeholder="Policy, Amenities and Others" required="" type="text"> <br><br>
+       
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="List Your Property" type="submit"> 
+
+            <br>
+            <br>
+ 
+   </form> 
+</div> 
+</div>	
+
+</body>
+</html>
